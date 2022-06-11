@@ -10,3 +10,9 @@ num = (num--, num *= 3, num = minusEight(num), num -=4);
 console.log(num);
 // ansver is 24
 
+let a = 0;
+for(let i = 0; i < 5; i++) {
+    a++
+}
+console.log(5);
+// answer is 5
