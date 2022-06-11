@@ -4,3 +4,9 @@ console.log(arr.some(even));
 
 // ansver is TRUE
 
+let num = 13;
+const minusEight = x => x - 8;
+num = (num--, num *= 3, num = minusEight(num), num -=4);
+console.log(num);
+// ansver is 24
+
