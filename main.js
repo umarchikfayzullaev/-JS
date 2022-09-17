@@ -16,3 +16,10 @@ for(let i = 0; i < 5; i++) {
 }
 console.log(5);
 // answer is 5
+
+const sym = Symbol("key");
+const javascript_tests = Symbol.keyFor(sym);
+
+console.log(javascript_tests);
+
+// ansver (undefined)
